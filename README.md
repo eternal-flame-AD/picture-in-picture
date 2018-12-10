@@ -4,7 +4,7 @@ Provide picture in picture functionality to HTML5 videos on supported browsers u
 
 ## Installation
 
-1. [Check](https://caniuse.com/#feat=picture-in-picture) if your current browser supports the PiP API.
+1. [Lookup on caniuse.com](https://caniuse.com/#feat=picture-in-picture) or use this [Pen](https://codepen.io/anon/pen/aPzvZo) or use the [Official Sample Page](https://googlechrome.github.io/samples/picture-in-picture/) to check if your current browser supports the PiP API.
 
 1. Install [Tampermonkey](https://tampermonkey.net/) browser extension.
 
