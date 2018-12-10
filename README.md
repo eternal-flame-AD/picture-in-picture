@@ -1,5 +1,7 @@
 # Picture In Picture
 
+[![Install on Greasy Fork](https://img.shields.io/badge/install-Greasy%20Fork-green.svg)](https://greasyfork.org/en/scripts/375384-picture-in-picture)
+
 Provide picture in picture functionality to HTML5 videos on supported browsers using the new [Picture in Picture](https://wicg.github.io/picture-in-picture/) API.
 
 ## Installation
