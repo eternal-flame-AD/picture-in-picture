@@ -2,7 +2,7 @@
 // @name         Picture In Picture
 // @namespace    http://github.com/eternal-flame-AD/picture-in-picture/
 // @version      0.1
-// @downloadURL  https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/index.user.js
+// @downloadURL  https://github.com/eternal-flame-AD/picture-in-picture/raw/master/index.user.js
 // @homepage     http://github.com/eternal-flame-AD/picture-in-picture/
 // @description  Provide picture in picture functionality to HTML5 videos on supported browsers
 // @author       eternal-flame-AD

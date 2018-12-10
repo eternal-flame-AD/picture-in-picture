@@ -8,7 +8,7 @@ Provide picture in picture functionality to HTML5 videos on supported browsers u
 
 1. Install [Tampermonkey](https://tampermonkey.net/) browser extension.
 
-2. Install the UserScript [here](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/index.user.js).
+2. Install the UserScript [here](https://github.com/eternal-flame-AD/picture-in-picture/raw/master/index.user.js).
 
 ## Tested on
 
