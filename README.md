@@ -14,15 +14,15 @@ Provide picture in picture functionality to HTML5 videos on supported browsers u
 
 - [Bilibili](https://www.bilibili.com/)
     
-    ![Bilibili Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-bilibili.gif)
+    ![Bilibili Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-bilibili.png)
 
 - [AcFun](http://www.acfun.cn/)(With the [AcFun HTML5 Player](https://github.com/esterTion/AcFun-HTML5-Player) extention)
     
-    ![AcFun Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-acfun.gif)
+    ![AcFun Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-acfun.png)
 
 - [YouTube](https://www.youtube.com/)
     
-    ![YouTube Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-acfun.gif)
+    ![YouTube Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-acfun.png)
 
 ## Attributions
 
