@@ -11,6 +11,7 @@
 // @author             eternal-flame-AD
 // @include            *
 // @grant              none
+// @license             Apache-2.0
 // ==/UserScript==
 
 (function() {
