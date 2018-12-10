@@ -1,13 +1,16 @@
 // ==UserScript==
-// @name         Picture In Picture
-// @namespace    http://github.com/eternal-flame-AD/picture-in-picture/
-// @version      0.1
-// @downloadURL  https://github.com/eternal-flame-AD/picture-in-picture/raw/master/index.user.js
-// @homepage     http://github.com/eternal-flame-AD/picture-in-picture/
-// @description  Provide picture in picture functionality to HTML5 videos on supported browsers
-// @author       eternal-flame-AD
-// @include      *
-// @grant        none
+// @name               Picture In Picture
+// @name:zh-CN         HTML5画中画
+// @namespace          http://github.com/eternal-flame-AD/picture-in-picture/
+// @version            0.1
+// @downloadURL        https://github.com/eternal-flame-AD/picture-in-picture/raw/master/index.user.js
+// @homepage           http://github.com/eternal-flame-AD/picture-in-picture/
+// @description        Provide picture in picture functionality to HTML5 videos on supported browsers
+// @description:zh-CN  向兼容浏览器中的HTML5视频添加画中画按钮
+// @compatible         chrome 70+
+// @author             eternal-flame-AD
+// @include            *
+// @grant              none
 // ==/UserScript==
 
 (function() {
