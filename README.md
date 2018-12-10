@@ -22,7 +22,7 @@ Provide picture in picture functionality to HTML5 videos on supported browsers u
 
 - [YouTube](https://www.youtube.com/)
     
-    ![YouTube Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-acfun.png)
+    ![YouTube Demo](https://cdn.jsdelivr.net/gh/eternal-flame-AD/picture-in-picture/img/demo-youtube.png)
 
 ## Attributions
 
