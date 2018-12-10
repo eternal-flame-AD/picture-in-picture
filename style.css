@@ -1,0 +1,24 @@
+.pip-indicator-holder {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 1rem;
+    z-index: 2147483647 !important;
+}
+
+.pip-on {
+    background: gray;
+    border-color: white;
+}
+
+.pip-off {
+    background: white;
+}
+  
+.pip-indicator-logo {
+    width: 50px;
+    height: auto;
+}
