@@ -2,7 +2,7 @@
 // @name               Picture In Picture
 // @name:zh-CN         HTML5画中画
 // @namespace          http://github.com/eternal-flame-AD/picture-in-picture/
-// @version            0.1
+// @version            0.2
 // @downloadURL        https://github.com/eternal-flame-AD/picture-in-picture/raw/master/index.user.js
 // @homepage           http://github.com/eternal-flame-AD/picture-in-picture/
 // @description        Provide picture in picture functionality to HTML5 videos on supported browsers
@@ -11,7 +11,7 @@
 // @author             eternal-flame-AD
 // @include            *
 // @grant              none
-// @license             Apache-2.0
+// @license            Apache-2.0
 // ==/UserScript==
 
 (function() {
@@ -73,25 +73,38 @@
                 
                 this.off = this.off.bind(this)
                 this.on = this.on.bind(this)
-    
-                this.target.addEventListener('enterpictureinpicture', () => {
-                    this.outside = true
-                    holder.classList.replace("pip-off","pip-on")
-                });
-            
-                this.target.addEventListener('leavepictureinpicture', () => {
-                    this.outside = false
-                    holder.classList.replace("pip-on","pip-off")
-                });
+                this.updateTarget = this.updateTarget.bind(this)
                 
                 holder.onclick = () => {
-                    (this.outside?this.off:this.on)().catch(err=>console.error)
+                    (this.outside?this.off:this.on)().catch(console.error)
                 }
                 this.elem = holder;
             }
     
+            updateTarget() {
+                if (!this.target.isConnected) this.target = locateVideoElement(document.body);
+                let _this = this;
+                this.target.addEventListener('enterpictureinpicture', function _self() {
+                    if (!_this.target.isConnected) {
+                        _this.target.removeEventListener('enterpictureinpicture', _self)
+                        return
+                    }
+                    _this.outside = true
+                    _this.elem.classList.replace("pip-off","pip-on")
+                });
+            
+                this.target.addEventListener('leavepictureinpicture', function _self() {
+                    if (!_this.target.isConnected) {
+                        _this.target.removeEventListener('leavepictureinpicture', _self)
+                        return
+                    }
+                    _this.outside = false
+                    _this.elem.classList.replace("pip-on","pip-off")
+                });
+            }
     
             async on() {
+                this.updateTarget()
                 await this.target.requestPictureInPicture()
             }
     
