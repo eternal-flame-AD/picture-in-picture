@@ -10,7 +10,7 @@
 // @compatible         chrome 70+
 // @author             eternal-flame-AD
 // @include            *
-// @grant              none
+// @grant              GM_info
 // @license            Apache-2.0
 // ==/UserScript==
 
